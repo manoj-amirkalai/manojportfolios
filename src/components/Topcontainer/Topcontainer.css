@@ -1,8 +1,9 @@
-.topcontainer{
-    background-image: url("../../pics/MANOJ.png");
-    height: 135vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
+.topcontainer {
+  background-image: url("../../pics/MANOJ.png");
+  height: 135vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+  width: 100%;
 }

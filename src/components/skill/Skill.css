@@ -8,7 +8,7 @@
   margin-bottom: 10px;
 }
 .skillimg > img {
-  width: 600px;
+  width: 550px;
   margin-top: 30px;
   border-radius: 200px 50px 500px 376px;
   object-fit: contain;
@@ -26,6 +26,7 @@
 .skill {
   background-color: black;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 0 200px;

@@ -1,11 +1,13 @@
 .Topcontent {
   color: #7ee7e7;
+  width: 500px;
+
 }
 .Topcontent-container {
   color: #7ee7e7;
   position: absolute;
-  top: 700px;
-  left: 1050px;
+  top: 750px;
+  left: 30px;
 }
 .text{
   text-decoration: underline #7ee7e7;
@@ -17,7 +19,7 @@
   padding-left: 30px;
   font-size: 20px;
   padding-top: 20px;
-  color: rgba(240, 241, 176, 0.777);
+  color: rgba(230, 233, 70, 0.899);
 }
 .Topcontent-container > a> Button {
   margin-bottom: 30px;
@@ -52,7 +54,7 @@
 .word-waves span:nth-child(1) {
   color: transparent;
   padding-left: 180px;
-  -webkit-text-stroke: 0.3px rgba(240, 241, 176, 0.777);;
+  -webkit-text-stroke: 0.3px rgba(223, 226, 27, 0.862);;
 }
 
 .word-waves span:nth-child(3) {
