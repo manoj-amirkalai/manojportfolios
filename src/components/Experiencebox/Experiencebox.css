@@ -1,0 +1,25 @@
+.experiencebox {
+  display: flex;
+  flex-direction: column;
+  border: 2px dotted;
+  border-radius: 10px;
+  width: 200px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(162, 237, 237);
+  overflow: hidden;
+}
+.experiencebox > p {
+  font-size: 16px;
+  color: rgb(11, 65, 181);
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.experiencebox > h3 {
+  margin-top: -20px;
+ color: rgb(156, 17, 121);
+
+}

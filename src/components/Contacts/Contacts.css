@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+
+.contacts {
+  display: flex;
+  margin: 200px 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(114, 232, 232);
+  margin-bottom: 50px;
+}
+.contact > h1 {
+  padding-bottom: 30px;
+  font-size: 60px;font-family: "Tangerine", serif;
+}
+.contact > h1:hover {
+  font-size: 70px;
+  color: rgba(240, 241, 176, 0.777);
+  
+}
+.contact > h1:after {
+  display: block;
+  content: "";
+  border-bottom: solid 1px #00ffff;
+  padding-bottom: 1%;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+}
+.contact > h1:hover:after {
+  transform: scaleX(1);
+}
+
+.contacts1 {
+  border: 5px;
+  border-radius: 25px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-style: dashed;
+  height: 210px;
+  width: 500px;
+  border-top-color: rgba(240, 241, 176, 0.777);
+  border-bottom-color: rgb(114, 232, 232);
+  border-bottom-color: rgb(114, 232, 232);
+  border-right-color: rgba(240, 241, 176, 0.777);
+}.contacts1 > a{
+  font-size: 20px;
+  text-decoration: none!important;
+  color: blanchedalmond;
+  font-size: 40px;font-family: "Tangerine", serif;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.contacts1 > a > span {
+  color: #7ee7e7;
+  font-size: 40px;font-family: "Tangerine", serif;
+  padding-left: 0px !important;
+}
+.contacts1 > a :hover{
+  color: #7ee7e7;
+}
+.contacts1 > a > span:hover {
+  color:  rgba(240, 241, 176, 0.777);
+}
+.contacts1 > p {
+  font-size: 20px;
+  color: blanchedalmond;
+  font-size: 40px;font-family: "Tangerine", serif;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.contacts1 > p > span {
+  color: #7ee7e7;
+  font-size: 40px;font-family: "Tangerine", serif;
+  padding-left: 0px !important;
+}
+.icons > a > button > span > .MuiSvgIcon-root {
+  font-size: 30px;
+}
+.icons > a > button > span > .MuiSvgIcon-root:hover{
+  color:#7ee7e7;
+  font-size: 40px;
+
+}
+.icons > a > button > span > .MuiSvgIcon-root {
+  color:  rgba(240, 241, 176, 0.777); 
+}.icons > a > button:hover{
+  color: #7ee7e7 !important;
+}.icons{
+  margin-bottom: 20px;
+}

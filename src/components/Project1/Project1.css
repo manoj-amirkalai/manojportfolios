@@ -1,0 +1,47 @@
+.project1 > img {
+  height: 308px;
+  width: 480px;border-radius: 128px 53px 171px 33px;
+}
+.project1 {
+  margin: 105px;
+  height: 308px;
+  width: 480px;
+  justify-content: space-evenly;
+  transition: transform 100ms ease-in-out;
+}
+.project1:hover {
+  color: rgb(210, 243, 144);
+  border-radius: 20px;
+  transform: scale(1.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgba(90, 187, 223, 0.662);
+  border-radius: 128px 53px 171px 33px;
+}.project1content > h4 {
+  text-align: center;
+  padding-top: 5px;
+  color: rgba(216, 127, 232, 0.984);
+}
+.project1content > h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+.project1content > h3 {
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  padding-top: 10px;
+  text-decoration: solid;
+}
+.project1content > p {
+  font-size: 20px;
+  padding-left: 35px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-right: 25px;
+  word-spacing: px;
+  text-indent: 50px;
+  color: rgb(89, 227, 227);
+}

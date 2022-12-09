@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+
+.skillimg {
+  flex: 0.4;
+  text-align: center;
+  margin-right: 100px;
+  margin-top:105px;
+  margin-bottom: 10px;
+}
+.skillimg > img {
+  width: 600px;
+  margin-top: 30px;
+  border-radius: 200px 50px 500px 376px;
+  object-fit: contain;
+}.skills{
+  display: grid;
+  justify-content: center;
+}
+.react>.MuiLinearProgress-colorPrimary {
+  background-color: grey;
+}
+.reactper> div >.MuiLinearProgress-barColorPrimary{
+  background-color: rgb(129, 204, 237);
+}
+
+.skill {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 200px;
+}
+.skillknownpercentage {
+  color: rgba(240, 241, 176, 0.777);
+  padding-bottom: 30px;
+}
+.skillknownpercentage > h4 {
+  padding-top: 30px;
+}.skills{
+  color: aqua;
+  font-size: 40px;
+  font-family: "Tangerine", serif;
+  
+}
+.skillknown {
+  padding-top: 40px;
+  flex: 0.6;
+  color: rgb(89, 227, 227);
+  text-align: left;
+  max-width: 500px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-top: 100px;
+}
+.skill > h2:hover {
+  font-size: 50px;
+  font-family: "Tangerine", serif;
+  color: rgba(240, 241, 176, 0.777);
+}
+.skill > h2:after {
+  display: block;
+  content: "";
+  border-bottom: solid 1px #00ffff;
+  padding-bottom: 1%;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+}
+.skill > h2:hover:after {
+  transform: scaleX(1);
+}
+
+.skill > h4 {
+  color: rgba(240, 241, 176, 0.777);
+}
+.htmlper> div >.MuiLinearProgress-barColorPrimary{
+  background-color: rgb(127, 199, 28);
+}
+.cssper> div >.MuiLinearProgress-barColorPrimary{
+  background-color: rgb(168, 98, 31);
+}
+.nodeper> div >.MuiLinearProgress-barColorPrimary{
+  background-color: rgb(111, 34, 182);
+}
+.expressper> div >.MuiLinearProgress-barColorPrimary{
+  background-color: rgb(35, 214, 110);
+}
+.jsper> div >.MuiLinearProgress-barColorPrimary{
+  background-color: rgb(209, 32, 133);
+}
+.javaper> div >.MuiLinearProgress-barColorPrimary{
+  background-color: rgb(5, 86, 40);
+}
+.pythonper> div >.MuiLinearProgress-barColorPrimary{
+  background-color: rgb(72, 222, 140);
+}
+.catiaper> div >.MuiLinearProgress-barColorPrimary{
+  background-color: rgba(239, 34, 34, 0.97);
+}.cper> div >.MuiLinearProgress-barColorPrimary{
+  background-color: rgba(239, 34, 34, 0.97);
+}.cpper> div >.MuiLinearProgress-barColorPrimary{
+  background-color: rgba(239, 34, 34, 0.97);
+}

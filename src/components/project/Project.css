@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+
+.project {
+  display: flex;
+  flex-direction: column;
+  color: rgb(89, 227, 227);
+  justify-content: center;
+  margin: 150px 10px;
+  align-items: center;
+}
+
+.project>h1 {
+  padding-bottom: 0px;
+  font-size: 50px;
+  font-family: "Tangerine", serif;
+  padding-top:40px;
+  margin-top: 130px;
+}
+
+.project>h1:hover {
+  font-size: 60px;
+  color: rgba(240, 241, 176, 0.777);
+  font-family: "Tangerine", serif;
+}
+.project> h1:after {
+  display: block;
+  content: "";
+  border-bottom: solid 1px #00ffff;
+  padding-bottom: 1%;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+}
+.project> h1:hover:after {
+  transform: scaleX(1);
+}
+
+.projects {
+  display: flex;
+  width: 90vw;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}

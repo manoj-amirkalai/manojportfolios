@@ -1,0 +1,99 @@
+.Topcontent {
+  color: #7ee7e7;
+}
+.Topcontent-container {
+  color: #7ee7e7;
+  position: absolute;
+  top: 700px;
+  left: 1050px;
+}
+.text{
+  text-decoration: underline #7ee7e7;
+  margin-top: 25px;
+}
+.Topcontent-container > p {
+  letter-spacing: 1px;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 20px;
+  padding-top: 20px;
+  color: rgba(240, 241, 176, 0.777);
+}
+.Topcontent-container > a> Button {
+  margin-bottom: 30px;
+  margin-left: 60px;border-radius: 5px;
+  background-color: #7ee7e7;
+  text-align: left;
+  margin-top: 10px;
+}
+.downloadcv {
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #78b9df;
+  border-radius: 7px;
+  margin-top: 25px;
+}
+
+.downloadcv:hover {
+  cursor: pointer;
+  background-color: rgb(231, 234, 234);
+  transition: transform 200ms ease-in-out;
+  color: rgb(21, 22, 22);
+
+}
+
+.word-waves span {
+  position: absolute;
+  color: #fff;
+  font-size: 50px;
+  transform: translate(-50%, -50%);
+  padding-left: 90px;
+}
+.word-waves span:nth-child(1) {
+  color: transparent;
+  padding-left: 180px;
+  -webkit-text-stroke: 0.3px rgba(240, 241, 176, 0.777);;
+}
+
+.word-waves span:nth-child(3) {
+  padding-left: 410px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.word-waves span:nth-child(2) {
+  color: rgb(128, 198, 255);
+  
+  padding-left: 180px;
+  -webkit-text-stroke: 1px #3bd9d9;
+  animation: animation 3s ease-in-out infinite;
+}
+@keyframes animation {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 75%,
+      15% 74%,
+      32% 50%,
+      54% 70%,
+      70% 81%,
+      84% 89%,
+      100% 72%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      16% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}

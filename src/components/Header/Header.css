@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+
+.header {
+  display: flex;
+  align-items: center;
+  color: rgb(89, 227, 227);
+  background-color: rgba(17, 17, 17, 0.699);
+  top: -10px;
+  position: sticky;
+  z-index: 2000;
+}
+
+.header-left {
+  flex: 0.4;
+}
+
+.header-left > h1 {
+  text-align: center;
+  font-family: "Nabla", serif;
+  color:rgb(89, 227, 227);
+  font-size:70px;
+  text-shadow: 4px 4px 4px rgb(89, 227, 227);
+  letter-spacing: 1px;
+  padding: 10px 0px;
+}
+
+.header-right {
+  flex: 0.6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-right > a > h4 {
+  font-size: 50px;font-family: "Tangerine", serif;
+  cursor: pointer;
+}
+
+.header-right > a > h4:hover {
+  color: rgba(242, 244, 160, 0.777);
+  cursor: pointer;
+  padding: 5px 5px;
+  letter-spacing: 1px;
+}
+
+.header-right > a > h4:after {
+  display: block;
+  content: "";
+  border-bottom: solid 1px #00ffff;
+  padding-bottom: 1%;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+}
+
+.header-right > a > h4:hover:after {
+  transform: scaleX(1);
+}
